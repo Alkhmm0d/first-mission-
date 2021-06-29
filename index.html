@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashborad</title>
+    
+   <link rel="stylesheet" href="style.css">   
+   
+</head>
+
+<body>
+    <div class = "slideContainer">
+    
+        <form id="myForm" action="index.php" method = "POST" target="dummyframe">
+
+            <div class = "motor">
+                <h3>لوحه تحكم 1</h3>
+                <input type="range" min = "0" max = "180" value="0" id = "Range1" class = "slider" name = "v1">
+                <p>القيمة :  <span id = "value1"></span></p>
+            </div>
+
+            <div class = "motor">
+                <h3>لوحه تحكم 2</h3>
+
+                <input type="range" min = "0" max = "180" value="0" id = "Range2" class = "slider" name = "v2">
+                <p>القيمة :   <span id = "value2"></span></p>
+            </div>
+
+
+            <div class = "motor">
+                <h3>لوحه تحكم 3</h3>
+
+                <input type="range" min = "0" max = "180" value="0" id = "Range3" class = "slider" name = "v3">
+                <p>القيمة :   <span id = "value3"></span></p>
+            </div>
+
+            <div class = "motor">
+                <h3>لوحه تحكم 4</h3>
+                <input type="range" min = "0" max = "180" value="0" id = "Range4" class = "slider" name = "v4">
+                <p>القيمة :   <span id = "value4"></span></p>
+            </div>
+
+
+            <div class = "motor">
+                <h3>لوحه تحكم 5</h3>
+                <input type="range" min = "0" max = "180" value="0" id = "Range5" class = "slider" name = "v5">
+                <p>القيمة :   <span id = "value5"></span></p>
+            </div>
+
+
+            <div class = "motor">
+                <h3>لوحه تحكم 6</h3>
+                <input type="range" min = "0" max = "180" value="0" id = "Range6" class = "slider" name = "v6">
+                <p>القيمة :   <span id = "value6"></span></p>
+            </div>
+
+            <input type="submit" value = "حفظ" name = "save"> 
+            <input type="submit" value = "نشغيل" name = "on" >
+
+
+        </form>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
